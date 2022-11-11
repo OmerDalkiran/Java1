@@ -11,7 +11,7 @@ public class Arrays01 {
         //                       binarySearch() Method'u aradiginiz eleman Array'de varsa o elemanin indexini return eder.
 
         //                       binarySearch() Method'u aradiginiz eleman Array'de yoksa "- a" seklinde bir negatif sayi alirsiniz.
-        //                       Bu sayidaki "-" isaretinin anlami bu eleman Array'de yok dmeektir, "a" nin anlami:
+        //                       Bu sayidaki "-" isaretinin anlami bu eleman Array'de yok demektir, "a" nin anlami:
         //                       "Eger o element array'de olsaydi kacinci sirada olurdu demektir."
 
         //                       binarySearch() Method'u tekrarlayan elemanlar icin kullanilmaz.
@@ -39,6 +39,12 @@ public class Arrays01 {
         int index1 = Arrays.binarySearch(brr,sayi4);
         System.out.println(index1);  // 8  [5, 8, 34, 52, 60, 76]  (0,1=8 indexi 1 element 8 yani)
 
+        int sayi5 =76;
+        int index2=Arrays.binarySearch(brr,sayi5);
+        System.out.println(index2); // 5         [5, 8, 34, 52, 60, 76]
+                                               // 0  1  2   3   4    5
 
     }
+
+
 }

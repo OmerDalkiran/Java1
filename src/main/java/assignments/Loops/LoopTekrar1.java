@@ -12,5 +12,8 @@ public class LoopTekrar1 {
             System.out.print(str.charAt(i) + "***"); // J***a***v***a***  Eger tek yildiz * kullanirsaniz tek yildizli *'li yapar
         }
         System.out.println();
+
+
+
     }
 }
