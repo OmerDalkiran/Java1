@@ -11,7 +11,7 @@ public class Q03_RegexQuantifiers {
                                      // boolean verir yani bu eslesiyormu eslesmiyormu, uyuyormu uymuyormu?
                                      // .. demek iki karakter olup olmadigini kontrol eder.
 
-        System.out.println(str.matches("..")); // true verdi . yani iki karakteli mi demek.
+        System.out.println(str.matches("..")); // true verdi . yani iki karakterli mi demek.
         System.out.println(str.matches(".s")); // true verdi . herhangi bir karakter ile baslayip s ile bitiyor demek
         System.out.println(str.matches("..s")); //  false verir . cunku 3 karakter yok
 
@@ -58,9 +58,9 @@ public class Q03_RegexQuantifiers {
 
         // ilk karakter 1, ikinci karekter noktalama işareti ve kalan 8 karakter rakam toplam 10 karakter olmali,
 
-        System.out.println("1?12345678".matches("[1][\\p{Punct}][0-9]{8}")); // false  koseli parantez ilk karakter demek , ikinci butun noktalam isaretlerinin regex i  ; 0-9
+        System.out.println("1?12345678".matches("'1'\\p{Punct}' [0-9]{8}")); // false  koseli parantez ilk karakter demek , ikinci butun noktalam isaretlerinin regex i  ; 0-9
 
-        System.out.println("1?!.12345678".matches("[1][\\p{Punct}]{3}[0-9]*")); // true
+        System.out.println("1?!.12345678".matches("'1'['p{Punct}]{3}[0-9]*")); // true
 
 
 
