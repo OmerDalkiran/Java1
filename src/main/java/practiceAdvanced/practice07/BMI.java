@@ -45,10 +45,6 @@ public class BMI {
 
     }
 
-
-
-
-
     @Override
     public String toString() {
         return "BMI{" +

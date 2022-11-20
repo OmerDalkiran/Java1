@@ -9,13 +9,13 @@ public class Q01_ArrayToStringNegative {
 
 
      Input:
-     String[] arr={"J","a","v","a","I","s","D","i","f","f","i","c","u","l","t"};
+     String[] arr={"J","a","v","a","i","s","d","i","f","f","i","c","u","l","t"};
 
      Output:
      String output ="JavaIsNOTDifficult";
       */
     public static void main(String[] args) {
-        String[] arr={"J","a","v","a","I","s","D","i","f","f","i","c","u","l","t"};
+        String[] arr={"J","a","v","a","i","s","i","n","i","s","p","i","r","d","i","f","f","i","c","u","l","t"};
         System.out.println(Arrays.toString(arr));
 
         String str = "";
@@ -25,7 +25,7 @@ public class Q01_ArrayToStringNegative {
 
         }
         System.out.println("str = " + str);
-        String strNegative = str.replace("Is","IsNOT");
+        String strNegative = str.replace("is","is not");
         System.out.println("strNegative = " + strNegative);
 
     }
