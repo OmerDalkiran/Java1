@@ -29,15 +29,15 @@ public class Q06_KelimeleriSay {
         System.out.println(Arrays.toString(arr));//[Ali, okula, geldi, ve, Ayse, de, okula, geldi]
 
 
-        Map<String,Integer> map = new HashMap<>();
+        Map<String,Integer> map = new HashMap<>(); // String i alacak ve ona bir numara atayacak demek
 
         for(String w:arr){
 
-            if(!map.containsKey(w)){
+            if(!map.containsKey(w)){ // eger string in icine atilan kelime bir key icermezse, ona 1 ver demek.
 
                 map.put(w,1);
 
-            }else {
+            }else {  // yok eger atanmis bir numarasi zaten varsa , o zaman o rakami bir artir demek
                 map.put(w,map.get(w)+1);
             }
         }

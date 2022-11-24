@@ -7,11 +7,11 @@ public class Q03_RegexQuantifiers {
         // ile bitip bitmediğini kontrol eden bir kod yazınız.
 
         String str = "as";
-        str.matches("..");     // matches metodu regeex le calisip String bir degeri regexle karsilastirmasini yapar ve
+        str.matches("..");     // matches metodu regex le calisip String bir degeri regexle karsilastirmasini yapar ve
                                      // boolean verir yani bu eslesiyormu eslesmiyormu, uyuyormu uymuyormu?
                                      // .. demek iki karakter olup olmadigini kontrol eder.
 
-        System.out.println(str.matches("..")); // true verdi . yani iki karakterli mi demek.
+        System.out.println(str.matches("..")); // true verdi . yani iki karakterlidir demek.
         System.out.println(str.matches(".s")); // true verdi . herhangi bir karakter ile baslayip s ile bitiyor demek
         System.out.println(str.matches("..s")); //  false verir . cunku 3 karakter yok
 

@@ -1,9 +1,9 @@
-package assignments;
+package assignments.ArrayExercise;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class Arrays04 {
+public class ArraysMaxElementsPlace {
         /*
     verilen bir array in en buyuk elemanini ve bu elemanin kacinci sirada oldugunu bulunuz
     input={10,13,56,20,40,60,56,32}
